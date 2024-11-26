@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card-cover img{
+  border-radius: 2rem;
+  width: 275px;
+  height: 450px;
+  margin: 15px 0px 15px 0px;
+  display: flex;
+  position: relative;
+  transition: transform .2s ease-in-out;
+}
+
+.card-cover img:hover{
+  transform: scale(1.05);
+}
+
+.banner-properties {
+  z-index: 3;
+  height: 700px;
+  width: auto;
+  box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.75);
+}
+
+.banner-properties img{
+  height: 700px;
+  width: auto;
+  position: relative;
+  z-index: -1;
+}
