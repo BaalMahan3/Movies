@@ -21,17 +21,18 @@ body {
   margin-bottom: 60px;
 }
 
-.card-cover img{
+.card {
+  background: transparent;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+.card img{
   border-radius: 2rem;
-  width: 275px;
-  height: 450px;
-  margin: 15px 0px 15px 0px;
-  display: flex;
-  position: relative;
   transition: transform .2s ease-in-out;
 }
 
-.card-cover img:hover{
+.card img:hover{
   transform: scale(1.05);
 }
 

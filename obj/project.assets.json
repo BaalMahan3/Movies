@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Conner Safieddine\\Desktop\\Moves4U\\Movies\\Movies4UFree.csproj",
+      "projectUniqueName": "C:\\Users\\Conner Safieddine\\Desktop\\Movies4U\\Movies\\Movies4UFree.csproj",
       "projectName": "Movies4UFree",
-      "projectPath": "C:\\Users\\Conner Safieddine\\Desktop\\Moves4U\\Movies\\Movies4UFree.csproj",
+      "projectPath": "C:\\Users\\Conner Safieddine\\Desktop\\Movies4U\\Movies\\Movies4UFree.csproj",
       "packagesPath": "C:\\Users\\Conner Safieddine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Conner Safieddine\\Desktop\\Moves4U\\Movies\\obj\\",
+      "outputPath": "C:\\Users\\Conner Safieddine\\Desktop\\Movies4U\\Movies\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Conner Safieddine\\AppData\\Roaming\\NuGet\\NuGet.Config",
