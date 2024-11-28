@@ -1,0 +1,11 @@
+@model IEnumerable<Movies4UFree.Models.Movie>
+
+<h1>Movie List</h1>
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            <a asp-action="Details" asp-route-itemid="@movie.Id">@movie.Title</a>
+        </li>
+    }
+</ul>

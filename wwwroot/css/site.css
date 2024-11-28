@@ -21,6 +21,34 @@ body {
   margin-bottom: 60px;
 }
 
+.banner-properties {
+  z-index: 3;
+  height: fit-content;
+  width: auto;
+  box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.75);
+}
+
+.banner-properties img{
+  height: fit-content;
+  width: auto;
+  position: relative;
+  z-index: -1;
+}
+
+.trending a{
+  text-decoration: none;
+  color: white;
+}
+
+.trending a:hover{
+  color: var(--bs-yellow);
+}
+
+.trending li{
+  margin-left: 20px;
+  list-style: none;
+}
+
 .card {
   background: transparent;
   padding: 10px 10px 10px 10px;
@@ -34,18 +62,4 @@ body {
 
 .card img:hover{
   transform: scale(1.05);
-}
-
-.banner-properties {
-  z-index: 3;
-  height: 700px;
-  width: auto;
-  box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.75);
-}
-
-.banner-properties img{
-  height: 700px;
-  width: auto;
-  position: relative;
-  z-index: -1;
 }

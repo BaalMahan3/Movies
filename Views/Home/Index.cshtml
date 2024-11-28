@@ -2,7 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 <div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel"
+        data-bs-interval="5000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="banner-properties">
@@ -13,15 +14,6 @@
                 <div class="banner-properties">
                     <img class="w-100" src="lib\Imgs\Banners\avengers-endgame.jpg" alt="">
                 </div>
-            </div>
-            <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="auto" height="700"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                        dy=".3em">Third slide</text>
-                </svg>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -34,51 +26,52 @@
         </button>
     </div>
 
-    <!-- Carousel Body -->
     <div>
-        <div>
-            <ul class="p-0 mt-5 mb-1 fs-2" style="">
-                <li><a href="#" class="nav-link px-2 text-white">Popular Movies</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">See more...</a></li>
+        <div class="trending">
+            <ul class="fs-4 text-white list-group list-group-horizontal">
+                <li>Trending now</li>
+                <li><a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
             </ul>
         </div>
-        <div class="container-fluid my-5">
+
+        <!-- Carousel Body -->
+        <div class="container-fluid">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="0">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
-                        <div class="row justify-content-md-center">
-                            <div class="col-12 col-md-2">
+                        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-sm-center">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-2">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-2">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-2">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-2">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-2">
+                            <div class="col">
                                 <div class="card">
                                     <img src="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWF2BtOa5VCXIPaEhm-oE1n6wJSm27W5KdqTqxOJhLNvNuvDz1lwCaCIAW9CQ81U4gwFDMpyIv3dRVY1q353TjB83yYHPY-24pMY.webp?r=a5c"
                                         class="card-img-top" alt="Card 1">
